@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jua&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Roboto+Condensed:wght@100..900&family=Tangerine:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-cormorant: "Cormorant Garamond", serif;
+    --font-roboto-condensed: "Roboto Condensed", sans-serif;
+    --font-tangerine: "Tangerine", cursive;
+    --font-jua: "Jua", sans-serif;
+    --font-bebas-neue: "Bebas Neue", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-boldonse: "Boldonse", sans-serif;
+    --font-playball: "Playball", cursive;
+}
