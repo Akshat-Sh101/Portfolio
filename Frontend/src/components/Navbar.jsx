@@ -174,7 +174,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }) {
     }
 
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 600 && window.scrollY < 1650 || window.scrollY > 4250 && window.scrollY < 5380)
+      setIsScrolled(window.scrollY > 600 && window.scrollY < 1650 || window.scrollY > 4250 && window.scrollY < 5350)
     }
 
     window.addEventListener("resize", handleResize)
