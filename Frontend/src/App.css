@@ -73,9 +73,13 @@
 }
 
 /* Hide default cursor when custom cursor is active */
-@media (pointer: fine) {
-  body {
-    cursor: none;
+/* @media (pointer: fine) {
+  body { cursor: none; }
+} */
+
+@media screen and (max-width: 768px) {
+  .scorecard-container {
+    display: none !important;
   }
 }
 
@@ -107,4 +111,49 @@
   #cert-card {
     width: 47%;
   }
+}
+
+@media (min-width: 768px) {
+    .responsive-grid {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+
+  .form-grid {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+@media (max-width: 767px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .form-grid {
+    gap: 4rem;
+  }
+}
+
+.sidebar {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 40;
+
+    display: none;
+    flex-direction: column;
+    gap: 14px;
+}
+
+@media (min-width: 1280px) {
+    .sidebar {
+        display: flex;
+    }
 }
