@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import GateResultsPopup from "./GateResultsPopup";
+import GateResultsPopup from "./Gateresultspopup";
 
 gsap.registerPlugin(ScrollTrigger);
 
